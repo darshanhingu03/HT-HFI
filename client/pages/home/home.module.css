@@ -1,0 +1,68 @@
+.html {
+  scroll-behavior: smooth;
+}
+
+.bgImg {
+  background-image: url("../../public/assets/mainHeader.jpg");
+  height: 80vh;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.btnText {
+  text-shadow: 2px 2px 2px black;
+  font-family: "Cardo", serif;
+  font-weight: 600;
+}
+.mainHeading {
+  text-align: center;
+  color: #001f3f;
+  text-shadow: 2px 2px 10px rgba(1, 18, 34);
+  font-weight: 800;
+  font-family: "Cardo", serif;
+}
+.subHeading {
+  font-family: "Cardo", serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  color: #0e3a5d;
+}
+.para {
+  color: #000;
+  text-align: center;
+  font-family: Cardo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btnTwo {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.topPeopleHeading {
+  color: #001f3f;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.76px;
+}
+@media screen and (min-width: 1440px) {
+  .bgImg {
+    background-image: url("../../public/assets/mainHeader.jpg");
+    height: 80vh;
+    background-position: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+}

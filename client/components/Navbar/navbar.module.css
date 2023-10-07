@@ -1,0 +1,22 @@
+/* navbar.module.css */
+.mobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.8); Semi-transparent background */
+  z-index: 100; /* Set a higher z-index value to make it appear above other content */
+}
+
+.mobileNavContainer {
+  position: relative;
+  z-index: 101; /* Set a z-index value higher than the mobileNav to ensure the button is above the background */
+}
+
+/* navbar.module.css */
+.navbar {
+  background-color: #0e3a5d;
+  color: white;
+  /* Add other styles as needed */
+}
